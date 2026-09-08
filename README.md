@@ -1,18 +1,23 @@
-# mimotion
+# Zepp-Life-Steps
 
-![ 刷步数](https://github.com/TonyJiangWJ/mimotion/actions/workflows/run.yml/badge.svg)
-[![GitHub forks](https://img.shields.io/github/forks/TonyJiangWJ/mimotion?style=flat-square)](https://github.com/TonyJiangWJ/mimotion/forks)
-[![GitHub stars](https://img.shields.io/github/stars/TonyJiangWJ/mimotion?style=flat-square)](https://github.com/TonyJiangWJ/mimotion/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/TonyJiangWJ/mimotion?style=flat-square)](https://github.com/TonyJiangWJ/mimotion/issues)
-[![Page Views Count](https://badges.toozhao.com/badges/01HV8REWHW88Z2QQAK7XZ3Y9ZN/green.svg)](https://badges.toozhao.com/stats/01HV8REWHW88Z2QQAK7XZ3Y9ZN "Get your own page views count badge on badges.toozhao.com")
+# 前置准备
+- 手机下载安装 Zepp Life（原小米运动）【鸿蒙用户，暂时先用其他系统完成注册绑定】。
+- 使用邮箱注册并登录。
+- 登录后进入：我的 -> 第三方接入 -> 分别绑定 微信 与 支付宝。
 
-## 小米运动自动刷步数（支持邮箱登录）
-
-- 小米运动自动刷步数，小米运动APP现已改名 `Zepp Life`，为方便说明，后面还是称其为小米运动。但下载注册时请搜索 `Zepp Life`。
-- 注册账号后建议先去以下网站测试自己的账号刷步数是否正常：[出去走走：https://motion.faithxy.com/](https://bushu.faithxy.com/) 不是广告啊 不建议在上面花钱购买
+# 常见问题
 - 如无法刷步数同步到支付宝等，建议重新注册一个新的。
 
-### 如果觉得好用，请给一个免费的[star](https://github.com/TonyJiangWJ/mimotion/)吧
+# 方式一：在线免部署版（强烈推荐 ⭐⭐⭐⭐⭐）
+- 如果你不想在本地装 Python，也不想在 GitHub 繁琐地配置 Actions Secrets，可以直接使用已部署好的网页端：
+- 打开在线工具：www.moryhub.com/step
+- 输入你的运动健康账号密码及目标步数。
+- 点击“提交修改”，即刻完成同步！
+
+# 方式二：自建 / GitHub Actions 自动化（折腾进阶）
+如果你希望自己托管代码并通过定时任务每天自动刷步，可按以下步骤配置：
+
+### 如果觉得好用，请给一个免费的[star](https://github.com/SuperMory/Zepp-Life-Steps/)吧
 
 ## Github Actions 部署指南
 
@@ -151,7 +156,7 @@
 
 5. 小米运动不会更新步数，只有关联的会同步！！！！！
 
-6. 请各位在使用时Fork[当前仓库](https://github.com/TonyJiangWJ/mimotion/)，防止出现不必要的bug.
+6. 请各位在使用时Fork[当前仓库](https://github.com/SuperMory/Zepp-Life-Steps/)，防止出现不必要的bug.
 
 7. 请注意，账号不是 [小米账号]，而是 [小米运动/ZeppLife] 的账号。
 
